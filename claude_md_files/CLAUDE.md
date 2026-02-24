@@ -441,6 +441,8 @@ Examples:
 
 ### Inheriting Views
 
+important: When inheriting from a standard view, ask for the location of the view so you can find the correct view to inherit from.
+
 ```xml
 <!-- Extend an existing view using xpath -->
 <record id="view_sale_order_form_inherit_my_module" model="ir.ui.view">
